@@ -1,0 +1,154 @@
+﻿* {
+    direction: rtl;
+}
+
+h2.headLine {
+    margin-bottom: 24px;
+}
+
+.navbar-brand > h4 {
+    color: #000000;
+    padding-top: 17px;
+}
+
+h3 {
+    text-align: center;
+}
+
+#newPadding {
+    padding-top: 24px !important;
+}
+
+.newSize {
+    height: 100%;
+    width: 80%;
+}
+
+.product .text .bottom-area a.buy-now:hover, .product .text .bottom-area a.add-to-cart:hover {
+    background: #2fa333c4
+}
+
+/*hover - bold menu*/
+
+#ftco-nav li a:visited {
+    font-weight: bold;
+}
+
+#ftco-nav li a:active {
+    font-weight: bold;
+}
+
+#ftco-nav li a:hover {
+    font-weight: bold;
+}
+
+
+/*footer*/
+.mouse {
+    top: -57px;
+}
+
+.pFooter {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.list-unstyled {
+    text-align: center;
+}
+
+
+.mt-5 > li {
+    margin-top: -15%;
+}
+
+.block-23 ul {
+    padding-right: 20%;
+}
+
+.mb-3 > ul {
+    margin-bottom: 5rem !important;
+}
+
+
+/*end footer*/
+
+/*התפריט בכל גודל חוץ מאקסטרה לארג*/
+.ftco-navbar-light {
+    background: transparent !important;
+    z-index: 3;
+    padding: 0;
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light {
+        background: #ffffff !important;
+    }
+}
+
+.ftco-navbar-light .navbar-toggler {
+    color: black !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: #000000;
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item.active > a {
+        color: #000;
+        font-weight: bold;
+    }
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    color: #000000;
+}
+
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+        color: #000000;
+    }
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        color: black;
+    }
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+    color: #000000;
+}
+
+@media (max-width: 767.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+        color: #000;
+        background: #e6e6e6;
+    }
+}
+
+.img-prod > img {
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+}
+
+.img-newSize {
+    height: 300px;
+}
+
+.ftco-footer {
+    margin-top: 90px;
+}
+
+.pStyle {
+    font-size: 12px;
+    text-align: center;
+}

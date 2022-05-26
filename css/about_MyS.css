@@ -1,0 +1,147 @@
+﻿* {
+    direction: rtl;
+}
+
+.abc {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cent > p, h1, h3 {
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.pb-md-5 {
+    margin-bottom: 0px;
+}
+
+#contImg > img {
+    width: 90%;
+}
+
+.whiteDiv {
+    margin-top: 19px;
+    color: white;
+}
+
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .p-5 {
+        padding: 0 3rem 0 3rem !important;
+    }
+}
+
+/*hover - bold menu*/
+
+#ftco-nav li a:visited {
+    font-weight: bold;
+}
+
+#ftco-nav li a:active {
+    font-weight: bold;
+}
+
+#ftco-nav li a:hover {
+    font-weight: bold;
+}
+
+
+/*התפריט בכל גודל חוץ מאקסטרה לארג*/
+.ftco-navbar-light {
+    background: transparent !important;
+    z-index: 3;
+    padding: 0;
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light {
+        background: #ffffff !important;
+    }
+}
+
+.ftco-navbar-light .navbar-toggler {
+    color: black !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: #000000;
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item.active > a {
+        color: #000;
+        font-weight: bold;
+    }
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    color: #000000;
+}
+
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+        color: #000000;
+    }
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        color: black;
+    }
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+    color: #000000;
+}
+
+@media (max-width: 767.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+        color: #000;
+        background: #e6e6e6;
+    }
+}
+
+
+/*footer*/
+.mouse {
+    top: -57px;
+}
+
+.pFooter {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.list-unstyled {
+    text-align: center;
+}
+
+
+.mt-5 > li {
+    margin-top: -15%;
+}
+
+.block-23 ul {
+    padding-right: 20%;
+}
+
+.mb-3 > ul {
+    margin-bottom: 5rem !important;
+}
+
+.ftco-footer{
+    padding-top: 30px;
+}
+
+.ftco-no-pb {
+padding-bottom: 40px !important;
+}
+
+/*end footer*/

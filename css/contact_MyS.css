@@ -1,0 +1,192 @@
+﻿* {
+    direction: rtl;
+}
+
+
+.navbar-brand > h4 {
+    color: #000000;
+    padding-top: 17px;
+}
+
+.info > p {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+.ftco-section {
+    padding-top: 24px;
+}
+
+h2.headLine {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+/*כפתור שלח*/
+
+.btn.btn-primary {
+    background: #fbfaff;
+    border: 1px solid #000;
+    color: #000;
+}
+
+    .btn.btn-primary:hover {
+        border: 1px solid #2fa333c4;
+        background: #2fa333c4;
+        color: #fff;
+    }
+
+    .btn.btn-primary.btn-outline-primary {
+        border: 1px solid #2fa333c4;
+        background: transparent;
+        color: #2fa333c4;
+    }
+
+        .btn.btn-primary.btn-outline-primary:hover {
+            border: 1px solid transparent;
+            background: #ffa45c;
+            color: #fff;
+        }
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #2fa333c4;
+    border-color: #2fa333c4;
+}
+
+/*hover - bold menu*/
+
+#ftco-nav li a:visited {
+    font-weight: bold;
+}
+
+#ftco-nav li a:active {
+    font-weight: bold;
+}
+
+#ftco-nav li a:hover {
+    font-weight: bold;
+}
+
+
+/*התפריט בכל גודל חוץ מאקסטרה לארג*/
+.ftco-navbar-light {
+    background: transparent !important;
+    z-index: 3;
+    padding: 0;
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light {
+        background: #ffffff !important;
+    }
+}
+
+.ftco-navbar-light .navbar-toggler {
+    color: black !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: #000000;
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item.active > a {
+        color: #000;
+        font-weight: bold;
+    }
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    color: #000000;
+}
+
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+        color: #000000;
+    }
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        color: black;
+    }
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+    color: #000000;
+}
+
+@media (max-width: 767.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+        color: #000;
+        background: #e6e6e6;
+    }
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+    color: #000000;
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        color: black;
+    }
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+    color: #000000;
+}
+
+@media (max-width: 767.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+        color: #000;
+        background: #e6e6e6;
+    }
+}
+
+
+/*footer*/
+.mouse {
+    top: -57px;
+}
+
+.pFooter {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.list-unstyled {
+    text-align: center;
+}
+
+
+.mt-5 > li {
+    margin-top: -15%;
+}
+
+.block-23 ul {
+    padding-right: 20%;
+}
+
+.mb-3 > ul {
+    margin-bottom: 5rem !important;
+}
+
+
+/*end footer*/

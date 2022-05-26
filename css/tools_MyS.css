@@ -1,0 +1,177 @@
+﻿* {
+    direction: rtl;
+}
+
+.navbar-brand > h4 {
+    color: #000000;
+    padding-top: 17px;
+}
+
+h2.plantName {
+    padding-bottom: 0px;
+}
+
+h2{
+    padding-bottom:30px;
+}
+
+.buy-now{
+    font-size:12px;
+    color: black;   
+}
+
+p {
+    font-size: 12px;
+    text-align: center;
+}
+#img-size{
+    width:25px;
+    height:25px;
+}
+h4,h6{
+    text-align:center;
+}
+h6{
+    margin-bottom:20px;
+}
+.product{
+   
+    width: 70%;
+}
+.ftco-animate {
+    max-width: 25%;
+}
+.ftco-section {
+ padding-top: 24px;
+}
+.dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 9px;
+    font-size: 16px;
+    border: none; 
+    cursor: pointer;   
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #f9f9f9;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+.dropdown-content a {
+ color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+ }
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+.dropdown:hover .dropbtn {
+ background-color: #3e8e41;
+}
+
+#center {
+    text-align:center;
+    padding-bottom:20px;
+    
+}
+
+/*כפתור לרכישה*/
+
+.px-5 {
+    padding: 1px 12px !important;
+}
+
+.btn.btn-primary {
+    background: #fbfaff;
+    border: 1px solid #000;
+    color: #000;
+    max-width: 100%;
+}
+
+    .btn.btn-primary:hover {
+        border: 1px solid #2fa333c4;
+        background: #2fa333c4;
+        color: #fff;
+    }
+
+    .btn.btn-primary.btn-outline-primary {
+        border: 1px solid #2fa333c4;
+        background: transparent;
+        color: #2fa333c4;
+    }
+
+        .btn.btn-primary.btn-outline-primary:hover {
+            border: 1px solid transparent;
+            background: #ffa45c;
+            color: #fff;
+        }
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #2fa333c4;
+    border-color: #2fa333c4;
+}
+
+/*hover - bold menu*/
+
+#ftco-nav li a:visited {
+    font-weight: bold;
+}
+
+#ftco-nav li a:active {
+    font-weight: bold;
+}
+
+#ftco-nav li a:hover {
+    font-weight: bold;
+}
+
+
+
+/*footer*/
+.mouse {
+    top: -57px;
+}
+
+.pFooter {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.list-unstyled {
+    text-align: center;
+}
+
+
+.mt-5 > li {
+    margin-top: -15%;
+}
+
+.block-23 ul {
+    padding-right: 20%;
+}
+
+.mb-3 > ul {
+    margin-bottom: 5rem !important;
+}
+
+
+/*end footer*/
