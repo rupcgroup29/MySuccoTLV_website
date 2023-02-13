@@ -1,7 +1,7 @@
 #MySuccoTLV_website
 
-Front developt webside.
-No data base functions.
+Frontend developt webside.
+No data-base functions.
 This is a dummy sales website - without the add-to-card and payment options.
 The site is suitable mainly to web than mobile.
 
